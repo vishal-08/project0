@@ -1,0 +1,34 @@
+/*variable*/
+$color : blue;
+td{
+  font-size: 15px;
+  color: $color;
+}
+th{
+  font-size: 20px;
+  color: $color;
+}
+
+/*nesting*/
+div{
+  font-size: 18px;
+  .heading{
+    text-align: center;
+  }
+ #first{
+    border: 1px solid black;
+    margin-top: 10px;
+  }
+  #second{
+    border: 1px solid black;
+    margin-top: 10px;
+  }
+  #third{
+    border: 1px solid black;
+    margin-top: 10px;
+  }
+  #fourth{
+    border: 1px solid black;
+    margin-top: 10px;
+  }
+}
